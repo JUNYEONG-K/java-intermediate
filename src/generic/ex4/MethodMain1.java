@@ -12,5 +12,8 @@ public class MethodMain1 {
 
         Integer result3 = GenericMethod.<Integer>numberMethod(i); // 타입 제한
         Double result4 = GenericMethod.<Double>numberMethod(20.0);
+
+        Integer result5 = GenericMethod.genericMethod(i); // 타입 추론 가능
+        Double result6 = GenericMethod.numberMethod(20.0);
     }
 }
