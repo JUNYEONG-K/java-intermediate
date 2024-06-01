@@ -19,6 +19,7 @@ public class MyHashSetV2Main2 {
         set.add(jpa);
         set.add(java);
         set.add(spring);
+        set.add(new Member("spring")); // 중복 삽입 안됨
         System.out.println("set = " + set);
 
         Member searchValue = new Member("JPA");
