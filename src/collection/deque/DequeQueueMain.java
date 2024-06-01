@@ -2,10 +2,12 @@ package collection.deque;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
+import java.util.Queue;
 
 public class DequeQueueMain {
     public static void main(String[] args) {
-        Deque<Integer> queue = new ArrayDeque<>();
+//        Deque<Integer> queue = new ArrayDeque<>();
+        Queue<Integer> queue = new ArrayDeque<>();
 
         queue.offer(1);
         queue.offer(2);
